@@ -1,13 +1,24 @@
 # Django Setup
 
-This is a Django web application built using Python and Django framework.
+This is a Django web application built using Python and Django framework. A clean and scalable Django project setup ready for real-world web development.
 
-## Features
+## 📌 Features
 
-- Django backend
-- SQLite database
-- Admin panel
-- App-based structure
+- Django project structure initialized
+- Modular app-based architecture
+- SQLite database (default, can switch to PostgreSQL)
+- Clean settings configuration
+- Static & media file setup
+- Development-ready environment
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x  
+- Django 4+  
+- SQLite (default DB)  
+- HTML, CSS (frontend templates)  
 
 ## Run Project
 
