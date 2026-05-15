@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>favplayer</title>
+
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <p>I am inside favplayer page.</p>
+
+    <a href="{% url 'index_page' %}">
+        <button>Index</button>
+    </a>
+
+    <hr>
+    <hr>
+
+    <p>Favourite Player name is {{name}} </p>
+    <p>Favourite Player Age is {{age}} </p>
+    <p>Favourite Player Gender is {{gender}} </p>
+    <p>Favourite Player Country is {{country}} </p>
+    <p>Favourite Player Game is {{game}} </p>
+    <p>Favourite Player Team is {{team}} </p>
+
+</body>
+
+</html>

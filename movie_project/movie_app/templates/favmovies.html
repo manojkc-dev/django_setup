@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+</head>
+
+<body>
+
+    <h1>Hello, world!</h1>
+    <p>I am inside Favourite Movies page.</p>
+
+    <a href="{% url 'index_page' %}">
+        <button>Index</button>
+    </a>
+
+    <a href="{% url 'director_page' %}">
+        <button>Director</button>
+    </a>
+
+    <hr>
+    <hr>
+
+    <p>Movie title is {{title}}</p>
+    <p>Movie released year is {{year}}</p>
+    <p>Movie genre is {{genre}}</p>
+    <p>Movie's director is {{director}}</p>
+    <p>Movie's rating is {{rating}}</p>
+
+</body>
+
+</html>
