@@ -1,4 +1,4 @@
-# Django Project
+# Django Setup
 
 This is a Django web application built using Python and Django framework.
 
