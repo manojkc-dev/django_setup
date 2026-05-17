@@ -17,10 +17,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
+    - name: Set up Python
+      uses: actions/setup-python@v5  # Good idea to update this to @v5 too!
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.11'
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
